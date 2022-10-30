@@ -222,7 +222,7 @@ u8 rtw_get_scch_by_cch_offset(u8 cch, u8 bw, u8 offset)
 	}
 
 	if (offset == HAL_PRIME_CHNL_OFFSET_DONT_CARE) {
-		rtw_warn_on(1);
+		/* rtw_warn_on(1); */
 		goto exit;
 	}
 
